@@ -26,7 +26,7 @@ for w in words[:]:
 print(words)  # ['defenestrate', 'cat', 'window', 'defenestrate']
 
 # range() 生成等差级数链表
-print(list(range(1, 10, 2)))  # ['defenestrate', 'cat', 'window', 'defenestrate']
+print(list(range(1, 10, 2)))  # [1, 3, 5, 7, 9]
 
 # break：与 c 语言类似，用于跳出最近一级循环
 # continue：循环继续执行下一次迭代
