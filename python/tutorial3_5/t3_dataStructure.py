@@ -150,7 +150,7 @@ print(list(tel.keys()), sorted(tel.keys()))  # ['tom', 'jack'] ['jack', 'tom']
 
 # dict()构造函数可以直接从 key-value 对中创建字典
 
-print(dict([('tom', 'men'), ('hanMeiMei', 'women')]))  # display：{'liLei': 'man', 'hanMeiMei': 'women'}。从元组中创建字典
+print(dict([('tom', 'men'), ('hanMeiMei', 'women')]))  # display：{'tom': 'man', 'hanMeiMei': 'women'}。从元组中创建字典
 print(dict(tom='men', hanMeiMei='women', jack='undefined'))  # {'jack': 'undefined', 'hanMeiMei': 'women', 'tom': 'men'}
 
 l1 = range(10)
